@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/kuning">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/rumahkeren1"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Rumah Strategis"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_marginLeft="17dp"
+        android:layout_width="370dp"
+        android:layout_height="2dp"
+        android:background="@color/cardview_dark_background"/>
+
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:baselineAligned="false"
+        android:text="Ukuran 8x12 , 5 Kamar, 2 kamar mandi,garasi,halaman belakang yang indah,tidak jauh dari perkotaan sangat nyaman dan tidak berisik"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:baselineAligned="false"
+        android:text="Hubungi :"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0899-0905-467" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0721-0905-467" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="atau bisa"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="20dp"
+        android:text="Boking ae.." />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:gravity="bottom|center"
+        android:text="Kepuasan anda sungguh berarti untuk kami"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
